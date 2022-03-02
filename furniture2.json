@@ -1,0 +1,50 @@
+[
+    {
+        "name" : "Calm",
+        "category" : "Classic",
+        "price" : "1000.00",
+        "imgSrc":"images/Classic - Calm.jpg"
+    },
+    {
+        "name" : "Accenture",
+        "category" : "Modern",
+        "price" : "2300.00",
+        "imgSrc" : "images/Modern- One.jpg"
+    },
+    {
+        "name" : "Sphere",
+        "category" : "Rustic",
+        "price" : "2500.00",
+        "imgSrc" : "images/Rustic - Sphere.jpg"
+    },
+    {
+        "name" : "Trestle",
+        "category" : "Dining",
+        "price" : "1500.00",
+        "imgSrc" : "images/Dining - Trestle.jpg"
+    },
+    {
+        "name" : "Elle",
+        "category" : "Office",
+        "price" : "2000.00",
+        "imgSrc" : "images/Office -Elle.jpg"
+    },
+    {
+        "name" : "Victoria",
+        "category" : "Antique",
+        "price" : "3000.00",
+        "imgSrc" : "images/Antique- Victoria.png"
+    },
+    {
+        "name" : "Cavalli",
+        "category" : "Luxury",
+        "price" : "5000.00",
+        "imgSrc" : "images/Luxury - Cavalli.jpg"
+    },
+    {
+        "name" : "Ocean",
+        "category" : "Minimalist",
+        "price" : "2500.00",
+        "imgSrc" :"images/Minimalist - Ocean.jpg"
+    }
+]

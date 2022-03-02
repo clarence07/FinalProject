@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add To Cart - Furniture</title>
+     <title>Autocomplete Search Box | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" placeholder="Type to search..">
+        <div class="autocom-box">
+          <!-- here list are inserted from javascript -->
+        </div>
+        <div class="icon"><i class="fas fa-search"></i></div>
+      </div>
+    </div>
+     <script src="suggestions.js"></script> 
+     <script src="script.js"></script> 
+  </body>
+</html>
+
+
+    <!-- header  -->
+    <header>
+      <div class = "container">
+        <!-- navbar -->
+        <nav class = "navbar">
+          <a href = "index.html" class = "navbar-brand">Wood Essence.</a>
+          <button type = "button" class = "navbar-toggler">
+            <i class = "fas fa-bars"></i>
+          </button>
+          <div class = "navbar-collapse">
+            <ul>
+              <li><a href = "index.html">Home</a></li>
+              <li><a href = "index2.html">Future Arrivals</a></li>
+              <li><a href = "index3.html">About</a></li>
+            </ul>
+          </div>
+
+          <div class = "cart">
+            <button type = "button" id = "cart-btn">
+              <i class = "fas fa-shopping-cart"></i>
+              <span id = "cart-count-info"></span>
+            </button>
+            
+            <div class = "cart-container">
+              <div class = "cart-list">
+                <!-- single item -->
+                 <div class = "cart-item">
+                  
+                  <div class = "cart-item-info">
+                  
+                    <span class = "cart-item-category">Cart</span>
+                   
+                  </div>
+
+                  
+                </div>
+                <!-- end of single item  -->
+              </div>
+
+              <div class = "cart-total">
+                <h3>Total: ₱</h3>
+                <span id = "cart-total-value"></span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- banner -->
+        <div class = "banner">
+          <div class = "banner-content">
+            <h1>Table For Your Everyday Needs</h1>
+            <p class = "text">The best tables you can find on the planet!</p>
+            <div class = "btns">
+              <button type = "button" onclick="window.location.href='index2.html'" class = "btn" >More</button>
+             
+                
+            <button type = "button" onclick="window.location.href='index3.html'" class = "btn">more info</button>
+            </div>
+          </div>
+
+          <div class = "banner-img">
+            <img src = "images/hehe.png" alt = "furniture banner image">
+          </div>
+        </div>
+        <!-- end of banner  -->
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- products section  -->
+    <section class = "products">
+      <div class = "container">
+        <h2>Our Products</h2>
+        <div class = "product-list">
+          <!-- single item -->
+           <div class = "product-item">
+            <div class = "product-img">
+              <img src = "images/Classic - Calm.jpg" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class = "product-content">
+              <h3 class = "product-name">Calm</h3>
+              <span class = "product-category">Classic</span>
+              <p class = "product-price">₱1000.00</p>
+            </div>
+          </div>
+<!-- 2nd -->
+          <div class = "product-item">
+            <div class = "product-img">
+              <img src = "images/Modern- One.jpg" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class = "product-content">
+              <h3 class = "product-name">Accenture</h3>
+              <span class = "product-category">Modern</span>
+              <p class = "product-price">₱2300.00</p>
+            </div>
+          </div>
+<!-- 3rd -->
+          <div class = "product-item">
+            <div class = "product-img">
+              <img src = "images/Rustic - Sphere.jpg" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class = "product-content">
+              <h3 class = "product-name">Sphere</h3>
+              <span class = "product-category">Rustic</span>
+              <p class = "product-price">₱2500.00</p>
+            </div>
+          </div>
+<!-- 4th -->
+          <div class = "product-item">
+            <div class = "product-img">
+              <img src = "images/Dining - Trestle.jpg" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class = "product-content">
+              <h3 class = "product-name">Trestle</h3>
+              <span class = "product-category">Dining</span>
+              <p class = "product-price">₱1500.00</p>
+            </div>
+          </div>
+<!-- 5th -->
+          <div class = "product-item">
+            <div class = "product-img">
+              <img src = "images/Office -Elle.jpg" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class = "product-content">
+              <h3 class = "product-name">Elle</h3>
+              <span class = "product-category">Office</span>
+              <p class = "product-price">₱2000.00</p>
+            </div>
+          </div>
+<!-- 6th -->
+          <div class = "product-item">
+            <div class = "product-img">
+              <img src = "images/Antique- Victoria.png" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class = "product-content">
+              <h3 class = "product-name">Victoria</h3>
+              <span class = "product-category">Antique</span>
+              <p class = "product-price">₱3000.00</p>
+            </div>
+          </div>
+<!-- 7th -->
+          <div class = "product-item">
+            <div class = "product-img">
+              <img src = "images/Luxury - Cavalli.jpg" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class = "product-content">
+              <h3 class = "product-name">Cavalli</h3>
+              <span class = "product-category">Luxury</span>
+              <p class = "product-price">₱5000.00</p>
+            </div>
+          </div>
+<!-- 8th -->
+          <div class = "product-item">
+            <div class = "product-img">
+              <img src = "images/Minimalist - Ocean.jpg" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class = "product-content">
+              <h3 class = "product-name">Ocean</h3>
+              <span class = "product-category">Minimalist</span>
+              <p class = "product-price">₱2500.00</p>
+            </div>
+          </div>
+          <!-- end of single item -->
+        </div>
+      </div>
+    </section>
+    <!-- end of products section -->
+
+    <!-- footer -->
+    <footer>
+      <div class = "footer-banner">
+        <div class = "container">
+          <h2>Unlimited Furniture Collection</h2>
+          <p class = "text">Wooded Essence will soon sell more beautiful tables in the next months. On this page, you can see our upcoming items and wait for them to become available. Stay tuned and check this page frequently since many people desire our good products, and they can sell out quickly. customers, enjoy a pleasant shopping experience</p>
+          <button type = "button" onclick="window.location.href='index2.html'"class = "btn">View More</button>
+          
+
+        </div>
+      </div>
+
+      <div class = "container">
+        <div class = "social-icons">
+          <a href = "https://www.facebook.com" target="_blank">
+            <i class = "fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/i/flow/login" target="_blank">
+            <i class = "fab fa-twitter"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class = "fab fa-instagram"></i>
+          </a>
+          <a href = "https://www.pinterest.ph/login/"  target="_blank">
+            <i class = "fab fa-pinterest"></i>
+          </a>
+          <a href = "https://www.linkedin.com/" target="_blank">
+            <i class = "fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    
+    
+    
+    <script src="app.js"></script>
+    <script src="furniture2.json"></script>
+  </body>
+</html>
